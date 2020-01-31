@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+#rootId {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#rootId > li {
+	background-color: tomato;
+	border-radius: 10px;
+	color: white;
+	width: calc(100% / 2 - 10px);
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 25px;
+}
